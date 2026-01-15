@@ -184,6 +184,9 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  .heading_text h4 {
+    margin-bottom: 15px;
+}
 
   .manu_items {
     flex-direction: column;
@@ -220,10 +223,15 @@ footer{
 }
 .Section4_Container {
     gap: 5px;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+
 }
 .Text_Container {
     text-align: center;
     margin: 15px;
+}
+footer {
+    margin-top: 40px;
 }
 }
