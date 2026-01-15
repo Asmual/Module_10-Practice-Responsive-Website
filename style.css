@@ -21,23 +21,114 @@
   margin-top:40px ;
 
 }
+.Section_container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px ;
+  align-items: center;
+
+}
 .heading_text h4{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .navbar{
   display: flex;
-  background-color: antiquewhite;
 }
 .manu_items{
   display: flex;
   list-style: none;
+  align-items: center;
   
 }
 .item_list a{
   margin-right: 30px;
   text-decoration: none;
   color: rgba(58, 58, 58, 1);
+  font-size: 1rem;
+}
+
+.item_list a .fa-solid{
+  font-size: 1.5rem;
+}
+/*  */
+
+.Journey_content{
+  max-width: 482px;
+}
+.Journey_content p{
+  max-width: 505px;
+  margin: 16px 0;
+
+}
+
+.Img_container img{
+  width: 100%;
+}
+.btn_1{
+  background-color: rgba(224, 44, 109, 1);
+  padding: 12px 24px;
+  border-radius: 41px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.btn_1 i{
+  margin-left: 10px;
+
+}
+.Brand_Main_container{
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 100px;
   
+}
+.Barand_containe{
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 62px;
+}
+/*  */
+.Section_3{
+  margin-top: 100px;
+}
+
+.Card_Section{
+  max-width: 1047px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.Popular_Collection{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Price{
+  font-weight: 500;
+  font-size: 25px;
+
+}
+.Rating{
+  width: 150px;
+  margin-left: -10px;
+}
+
+.Card_content p{
+  max-width: 196px;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.Card_content{
+  padding: 17px 15px;
+}
+.Card_container{
+  max-width: 329px;
+  max-height: 476px;
 }
