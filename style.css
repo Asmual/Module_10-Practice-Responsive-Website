@@ -85,7 +85,7 @@
   margin-top: 100px;
   
 }
-.Barand_containe{
+.Barand_container{
   display: flex;
   margin: 0 auto;
   gap: 20px;
@@ -177,4 +177,53 @@ footer{
   background-color: rgba(169, 169, 169, 0.224);
   padding: 10px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .header_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manu_items {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .Section_container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .Journey_content h1{
+    font-size: 1.5rem;
+  }
+  .Journey_content p {
+    margin: 16px 15px;
+}
+  .Barand_container {
+    max-width: 350px;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+
+  .Brand_name img {
+    max-width: 80px;
+  }
+  .Popular_Collection {
+    font-size: 25px;
+}
+.Card_Section {
+    grid-template-columns: repeat(1, 1fr);
+}
+.Img_container img {
+    padding-left: 15px;
+}
+.Section4_Container {
+    gap: 5px;
+    flex-direction: column;
+}
+.Text_Container {
+    text-align: center;
+    margin: 15px;
+}
 }
